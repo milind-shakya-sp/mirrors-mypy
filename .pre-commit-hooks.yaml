@@ -2,7 +2,6 @@
     name: mypy
     entry: mypy
     language: python
-    'types': [python]
     args: ["--ignore-missing-imports", "--scripts-are-modules"]
     require_serial: true
     additional_dependencies: []
